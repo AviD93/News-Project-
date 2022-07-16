@@ -8,7 +8,6 @@
 * What was goood:
 * to use the function and using bootstrap
 # Wireframes & Design
-![Wireframe - 1](./image/images.jpg)
 ![Wireframe - 2](./image/first-page.png)
 ![Wireframe - 3](./image/second-page.png)
 ![Wireframe - 4](./image/responsive-1.png)
