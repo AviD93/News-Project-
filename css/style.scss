@@ -1,0 +1,58 @@
+
+/* // icon hidden btn */
+
+.admin-btn-none {
+    display: none;
+}
+
+
+/* // icon display btn */
+
+.admin-btn-display {
+    display: none;
+}
+
+.register-icon {
+    display: block;
+}
+
+.login-adminacsses {
+    display: none;
+}
+
+.adminIconStyle {
+    display: block;
+}
+// big add image
+.img-avi {
+    background-image: url("/image/add.jpg");
+    height: 250px;
+    background-size: cover;
+    -webkit-animation-name: changeImg;
+    animation-name: changeImg;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeImg {
+    35% {
+        background-image: url("/image/add3.png");
+        background-size: cover;
+    }
+    70% {
+        background-image: url("/image/add4.jpg");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("/image/add5.jpg");
+        background-size: cover;
+    }
+}
+
+@media(max-width:600px) {
+    .img-avi {
+        display: none;
+    }
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<body class="m-0 p-0">
+  <div class="container-fluid m-0 p-0">
+    <!-- nav bar -->
+    <div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid gap-md-5 ">
+          <!-- navbar logo image -->
+          <img class="logoImage mt-2 rounded-5" style="height: 35px; width: 35px;"
+            src="/image/4d5752b5e01c4234949d317a53d65497 (2).png" alt="">
+
+          <a class="navbar-brand text-primary" href="#">Dasta<span class="text-warning">NEWS</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+          <!-- navbar links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-md-flex me-auto mb-2 mb-lg-0 gap-md-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#general" id="general">כללי</a>
+              </li>
+
+              <!-- <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#business" id="business">עסקים</a>
+                      </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#sports" id="sports">ספורט</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#technology" id="technology">טכנולוגיה</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#entertainment" id="entertainment">בידור</a>
+              </li>
+
+
+            </ul>
+            <!-- navbar search and icons -->
+            <form class="d-flex gap-3" role="search">
+              <div class="d-flex">
+                <!-- search news input -->
+                <input class="form-control me-2" type="text" id="news-input" placeholder="...חפש חדשות">
+                <!-- search btn icon -->
+                <button class="btn text-white" type="button" id="search"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+              <div>
+                <!-- person icon btn -->
+                <i class="admin-icon-btn fa-solid fa-circle-user fa-xl text-white mt-3"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end navbar -->
+    <!-- header start -->
+    <header>
+      <!--      div of sign in user     -->
+      <div class="login-adminacsses container text-white log-in ">
+        <div class="row div-login">
+          <div class=" col-md-6 position-fixed end-0 d-flex justify-content-end">
+            <div class=" p-5 bg-dark border border-1 shadow rounded">
+              <div class="text-center">
+                <!-- inputs and logo -->
+                <img class="img-fluid rounded-5" src="/image/4d5752b5e01c4234949d317a53d65497 (2).png" width="20%"
+                  alt="">
+                <h2>Sign In</h2>
+              </div>
+              <!-- name input -->
+              <form>
+                <div class="form-group">
+                  <label for="Name">Full Name</label>
+                  <input type="name" class="form-control" id="fName" placeholder="Full Name">
+                </div>
+                <!-- email input -->
+                <div class="form-group">
+                  <label for="email">email</label>
+                  <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+                <!-- password input -->
+                <div class="form-group">
+                  <label for="Inputselect">password</label>
+                  <input type="password" class="form-control" id="password" placeholder="password">
+                </div>
+                <hr class="text-dark">
+                <!-- sign in btn -->
+                <div class="d-flex justify-content-center gap-2">
+                  <div class="login-div">
+                    <button class=" loginBtn btn text-white border shadow">Sign-in</button>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- end header -->
+
+    <!-- start main news -->
+    <main class="container-fluid">
+      <!-- div big add -->
+      <div class="adds container mt-4">
+        <div class=" w-100 img-avi big-add-img text-end" alt="">
+          <button class="btn text-white big-add-btn">X</button>
+        </div>
+
+      </div>
+      <!-- div of breaking news -->
+      <div class="container">
+        <div class="new-flashes d-flex justify-content-around mt-4 border border-2 shadow">
+          <div class="move-news text-start">
+            <marquee>
+              <div class="text-start">
+                <h5 class="text-danger">17:17</h5>
+                <p> רוכב אופנוע בן 22 נפגע <br> מרכב בחולון; מצבו קשה</p>
+              </div>
+
+            </marquee>
+          </div>
+          <hr class="text-black border border-3 d-md-block d-none">
+          <div class="move-news text-start d-md-block d-none">
+            <marquee>
+              <div class="text-start">
+                <h5 class="text-danger">              18:03
+                </h5>
+                <p> מעלינו אינו הקדמה לקשרים דיפלומטיים
+                  <br> ערב הסעודית: ההיתר לישראל לטוס</p>
+              </div>
+        
+
+            </marquee>
+          </div>
+          <hr class="text-black border border-3 d-md-block d-none">
+
+          <!-- weather div api -->
+          <div class="move-news text-start">
+            <marquee class="weather">
+
+
+            </marquee>
+          </div>
+          <hr class="text-black border border-3 d-md-block d-none">
+
+          <div class="flashes-title ">
+            <h1 class="bg-danger text-white text-end mt-4 border border-2 shadow d-md-block d-none">מבזקי חדשות</h1>
+            <h6 class="bg-danger text-white text-end mt-4 border border-2 shadow d-block d-md-none ">מבזקי חדשות</h6>
+          </div>
+
+        </div>
+        <!-- adds small image -->
+        <div class="add-img d-md-block d-none position-fixed end-0 ">
+          <button class="add-btn position-fixed end-0 btn text-white ">X</button>
+          <img class="" src="/image/side-add2.gif" alt="">
+
+        </div>
+        <!-- news type div -->
+        <div class="row mt-3" id="news-type">
+
+        </div>
+        <!-- news deatails div -->
+        <div class="row me-2 ms-2" id="news-details">
+
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer class="mt-5">
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+          <div class="container-fluid">
+            <h5 class=" me-auto ms-auto text-primary">Dasta<span class="text-warning">News</span></h5>
+          </div>
+        </nav>
+      </div>
+
+  </div>
+  </footer>
+  <footer class="text-center text-white">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <div class="text-center text-secondary p-3 bg-dark">
+      © 2022 Copyright:
+      <a class="text-white" href="https://DastaNews.com/">DastaNEWS.com</a>
+    </div>
+  </footer>
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script src="js/newsProject.js"></script>
+
+</html>
