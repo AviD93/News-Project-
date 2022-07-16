@@ -9,5 +9,9 @@
 * to use the function and using bootstrap
 # Wireframes & Design
 ![Wireframe - 1](./image/images.jpg)
+![Wireframe - 1](./image/first-page.jpg)
+![Wireframe - 1](./image/second-page.jpg)
+![Wireframe - 1](./image/responsive-1.jpg)
+![Wireframe - 1](./image/responsive-2.jpg)
 
 
