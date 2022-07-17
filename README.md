@@ -7,7 +7,7 @@ what went well :
 * login and save
 *  to use the function and using bootstrap
 * building the website was eazier to do with the help of wire frames
- Difficulties:
+*Difficulties:
 * to save every content in anouther div to news you like after i press like
 # Wireframes & Design
 
