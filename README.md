@@ -10,10 +10,11 @@ what went well :
  Difficulties:
 * to save every content in anouther div to news you like after i press like
 # Wireframes & Design
-![Wireframe - 2](./image/first-page.png)
+![Wireframe - 1](./image/first-page.png)
 ![Wireframe - 3](./image/second-page.png)
 ![Wireframe - 4](./image/responsive-1.png)
 ![Wireframe - 5](./image/responsive-2.png)
 ![Wireframe - 6](./image/wireframe.png)
 
+![wireFrame](https://user-images.githubusercontent.com/100848037/179386135-447535a9-94b6-4406-b494-74351de5ad58.png)
 
