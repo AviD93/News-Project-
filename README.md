@@ -1,7 +1,7 @@
 # News-Project-
 
 # Description
-using api of news and weather that you can search news and and responsive
+ you can login to news website to see news in real time in also weather that you can search news
 # Project Flow 
 what went well :
 * login and save
@@ -10,11 +10,8 @@ what went well :
  Difficulties:
 * to save every content in anouther div to news you like after i press like
 # Wireframes & Design
-![Wireframe - 1](./image/first-page.png)
-![Wireframe - 3](./image/second-page.png)
-![Wireframe - 4](./image/responsive-1.png)
-![Wireframe - 5](./image/responsive-2.png)
-![Wireframe - 6](./image/wireframe.png)
 
-![wireFrame](https://user-images.githubusercontent.com/100848037/179386135-447535a9-94b6-4406-b494-74351de5ad58.png)
+![responsive-1](https://user-images.githubusercontent.com/100848037/179386185-51ff1375-d345-4dda-841f-889809e02599.png)
+![responsive-2](https://user-images.githubusercontent.com/100848037/179386188-5f4c1642-9a6a-4a57-bbc2-1035e6111a73.png)
+![wireFrame](https://user-images.githubusercontent.com/100848037/179386181-c9cace0c-6fca-463c-97e5-b09834b74f32.png)
 
