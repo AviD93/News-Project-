@@ -1,7 +1,7 @@
 # News-Project-
 
 # Description
- you can login to news website to see news in real time in also weather that you can search news
+ you can login to news website to see news in real time in also weather also you can search news
 # Project Flow 
   what went well :
 * login and save
